@@ -1,4 +1,4 @@
-package com.librbary.mainbackend;
+package com.librbary.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
