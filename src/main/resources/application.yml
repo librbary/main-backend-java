@@ -1,0 +1,37 @@
+server:
+  port: 8443
+
+spring:
+  profiles:
+    active: e0
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  #Connection pool properties
+  datasource:
+    hikari:
+      maximumPoolSize: 5
+      minimumIdle: 3
+
+#To enable logging HTTP request and response, need to set it to TRACE
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
+
+#Swagger properties
+springdoc:
+  swagger-ui:
+    default-models-expand-depth: -1
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

@@ -12,11 +12,11 @@ import static org.slf4j.LoggerFactory.getLogger;
 @SpringBootApplication
 public class Application {
 
-	private static final Logger logger = getLogger(Application.class);
-	public static void main(String[] args) throws UnknownHostException {
-		logger.info("Start in main application {} on host {}", Application.class,
-				InetAddress.getLocalHost().getHostAddress());
-		SpringApplication.run(Application.class);
-	}
+  private static final Logger logger = getLogger(Application.class);
+  public static void main(String[] args) throws UnknownHostException {
+    logger.info("Start in main application {} on host {}", Application.class,
+        InetAddress.getLocalHost().getHostAddress());
+    SpringApplication.run(Application.class);
+  }
 
 }
