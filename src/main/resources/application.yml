@@ -23,12 +23,6 @@ logging:
       zalando:
         logbook: TRACE
 
-#Swagger properties
-springdoc:
-  swagger-ui:
-    default-models-expand-depth: -1
-
-
 
 management:
   endpoints:
