@@ -11,7 +11,7 @@ import static org.zalando.logbook.Conditions.exclude;
 import static org.zalando.logbook.Conditions.requestTo;
 
 /**
- * This class is used to add logbook configuration
+ * Logbook configurations
  */
 
 @Configuration
