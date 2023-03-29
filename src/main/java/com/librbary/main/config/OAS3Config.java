@@ -18,7 +18,8 @@ public class OAS3Config {
 
   public Info apiInfo() {
     var info = new Info();
-    info.title("liBRBary Backend APIs").description("liBRBary - Buy, Rental, Barter").version("v1").contact(new Contact().name("liBRBary Support Team").email("support@librbary.com"));
+    info.title("liBRBary Backend APIs").description("liBRBary - Buy, Rental, Barter").version("v1")
+        .contact(new Contact().name("liBRBary Support Team").email("support@librbary.com"));
 
     return info;
   }
