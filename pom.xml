@@ -23,13 +23,14 @@
 		<cucumber.version>7.11.1</cucumber.version>
 		<testcontainers.version>1.17.6</testcontainers.version>
 		<rest-assured.version>5.3.0</rest-assured.version>
+		<junit-vintage-engine.version>5.9.2</junit-vintage-engine.version>
 
 		<!-- Plugin versions -->
 		<spotless-maven-plugin.version>2.35.0</spotless-maven-plugin.version>
 		<codehaus-gmavenplus-plugin.version>2.1.0</codehaus-gmavenplus-plugin.version>
 		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 		<maven-resource-plugin.version>2.6</maven-resource-plugin.version>
-		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+		<maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
 		<maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 		<maven-failsafe-plugin.version>3.0.0</maven-failsafe-plugin.version>
@@ -122,6 +123,13 @@
 			<version>${rest-assured.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>${junit-vintage-engine.version}</version>
+			<scope>test</scope>
+		</dependency>
+
 
 		<!-- Test containers Dependencies-->
 		<dependency>
