@@ -38,7 +38,7 @@
 * To run a particular *feature* or *scenario* for **Functional Tests**, please add the below configurations in 'Edit Configuration...' <br />
  _Glue_: com.librbary.main.bdd.api.config.e0 com.librbary.main.bdd.api.stepdefs
 
-* To run a particular *feature* or *scenario* for P**ostDeployment Tests**, please add the below configurations in 'Edit Configuration...' <br />
+* To run a particular *feature* or *scenario* for **PostDeployment Tests**, please add the below configurations in 'Edit Configuration...' <br />
   _Glue_: com.librbary.main.bdd.api.config.e0 com.librbary.main.bdd.api.stepdefs
 
 ## CI/CD Pipeline
