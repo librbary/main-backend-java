@@ -35,6 +35,11 @@
 * To run PostDeployment Tests BDDs, use below command <br />
   ``` mvn clean test -Dcucumber.filter.tags="@PostDeploymentTests" -Dcucumber.glue="com.librbary.main.bdd.api.config.e1,com.librbary.main.bdd.api.stepdefs" ```
 
+* To run a particular *feature* or *scenario* for **Functional Tests**, please add the below configurations in 'Edit Configuration...' <br />
+ _Glue_: com.librbary.main.bdd.api.config.e0 com.librbary.main.bdd.api.stepdefs
+
+* To run a particular *feature* or *scenario* for P**ostDeployment Tests**, please add the below configurations in 'Edit Configuration...' <br />
+  _Glue_: com.librbary.main.bdd.api.config.e0 com.librbary.main.bdd.api.stepdefs
 
 ## CI/CD Pipeline
 We are using **github-actions** for continuous integration and continuous delivery. You can refer the workflows yml to add/update the jobs in the build/deploy workflow yml.
