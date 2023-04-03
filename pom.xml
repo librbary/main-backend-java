@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>17</java.version>
-		<openapi.version>1.6.15</openapi.version>
+		<openapi.version>2.1.0</openapi.version>
 		<logbook.version>2.16.0</logbook.version>
 
 		<!-- Test Libraries Versions -->
@@ -80,7 +80,7 @@
 		<!-- Swagger Dependencies -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-ui</artifactId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>${openapi.version}</version>
 		</dependency>
 
