@@ -2,7 +2,7 @@
 [![Application CI Build](https://github.com/librbary/main-backend-java/actions/workflows/maven.yml/badge.svg?branch=develop)](https://github.com/librbary/main-backend-java/actions/workflows/maven.yml)
 
 ## liBRBary Application
-> [liBRBary - Buy, Rental, Barter](https://librbary.github.io/main-frontend-react).
+> [liBRBary - Buy, Rental, Barter](https://librbary.github.io/liBRBary-app/).
 
 ## Local workspace setup guidelines
 
